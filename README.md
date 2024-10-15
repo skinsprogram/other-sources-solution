@@ -1,3 +1,3 @@
 # other-sources-solution
 
-- [x] [HTML Full Course for Beginners](https://www.youtube.com/watch?v=mJgBOIoGihA)
+- [x] [HTML Full Course for Beginners (Only HTML)](https://www.youtube.com/watch?v=mJgBOIoGihA)
