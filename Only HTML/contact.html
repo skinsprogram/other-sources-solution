@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Артем Катеринкин">
+    <meta name="description" content="Контактная информация тако-шопа">
+    <title>Контакты</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Контакты</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Домой</a></li>
+                <li><a href="/#about">Что такое <abbr title="Тако-шоп">ТКШ</abbr>?</a></li>
+                <li><a href="/#menu">Наше меню</a></li>
+                <li><a href="hours.html">Часы работы</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/ultrataco.jpg" alt="Ещё одно тако!" title="Мы любим очень много тако!" width="400" height="260">
+            <figcaption>Тако и ещё раз тако!</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2>Наша форма для обращения</h2>
+            <form action="http://httpbit.org/get" method="get">
+                <fieldset>
+                    <legend>Отправьте сообщение</legend>
+                    <p>
+                        <label for="name">Имя:</label>
+                        <input type="text" name="name" id="name" placeholder="Твое имя" required>
+                    </p>
+                    <p>
+                        <label for="email">Почта:</label>
+                        <input type="email" name="email" id="email" placeholder="Твоя почта" required>
+                    </p>
+                    <p>
+                        <label for="message">Сообщение:</label>
+                        <br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Напиши что хотел"></textarea>
+                    </p>
+                </fieldset>
+                <button type="subnit">Отправить</button>
+                <button type="reset">Сбросить</button>
+            </form>
+        </section>
+        <section>
+            <h2>Наша локация</h2>
+            <address>
+                Улица Пушкина, дом Колотушкина<br>
+                Москва, столица Мира
+                <br><br>
+                Телефон: <a href="tel:+78005553535">8-800-555-35-35</a>
+            </address>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Тако-шоп</p>
+    </footer>
+</body>
+</html>
